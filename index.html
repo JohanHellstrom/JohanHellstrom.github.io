@@ -2,14 +2,16 @@
 <html>
 <head>
 <title>Title of the document</title>
-<h1 style="text-align:center" style="font-family:Verdana"; style="font-size:300%";>  Military expenditure and a <a href="#Gustav"> LION </a> </h1>
+<h1 style="text-align:center" style="font-family:Verdana"; style="font-size:300%";>  Military expenditure and a <italic> LION </italic> </h1>
 </head>
 
-
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+<link rel="stylesheet" href="index.noob.css">
+    <script src="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
 
 <body style="background-color:lightgrey;">
 <center>
- <img src="https://newevolutiondesigns.com/images/freebies/cool-wallpaper-3.jpg" style="width:1100px; style="align:center"
+ <img src="https://newevolutiondesigns.com/images/freebies/cool-wallpaper-3.jpg" style="width:1100px; style="align:center" 
  </center>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.bundle.js"></script> 
@@ -53,8 +55,8 @@ var myChart = new Chart(ctx, {
     }
 });
 </script>
+<h2> Gustav II Adolf AKA The lion of the north!</h2>
 <center>
-<h2 id="Gustav"> Gustav II Adolf AKA The lion of the north!</h2>
 <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Strasbourg_walter_gustave_adolphe.JPG" style="width:1100px;">
 </center>  
 <script>
@@ -67,46 +69,14 @@ var myChart = new Chart(ctx, {
   ga('send', 'pageview');
 
 </script>
-<canvas id="myChart" width="400" height="400"></canvas>
-<script>
-var ctx = document.getElementById("myChart");
-var myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
-        datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero:true
-                }
-            }]
-        }
-    }
-});
-</script>
+
+<div class="ct-chart"> </div>
+<script src="index.noob.js"> </script>
+
+<iframe src="https://ourworldindata.org/grapher/military-expenditure-by-country-in-thousands-of-1900-uk-pounds-1830-1913" style="width: 100%; height: 660px; border: 0px none;"></iframe>
+
+<iframe src="https://ourworldindata.org/grapher/military-expenditure-by-country-in-thousands-of-2000-us-dollars-1914-2007" style="width: 100%; height: 660px; border: 0px none;"></iframe>
+
 </body>
 
 </html>
