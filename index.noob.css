@@ -1,1 +1,35 @@
-.ct-chart { height: 700px;width: 1400px}
+h1,h2 { color: white;
+    font-size: 38px;
+    font-family: 'Raleway', sans-serif;
+
+
+
+}
+body { background:url("http://www.walldevil.com/wallpapers/a79/blurred-gaussian-blur-minimalistic-light-background-wallpaper-wallpapers-images-computer.jpg");
+background-size: cover;
+
+
+ }
+ div {
+    width: 300px;
+    height: 150px;
+    background-color: #006947;
+    border-radius: 10px;
+    border-color: #43AA8B;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    font-family: Helvetica; }
+
+    p {
+    width: 300px;
+    height: 150px;
+    background-color: #006947;
+    border-radius: 10px;
+    border-color: #43AA8B;
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    font-family: Helvetica; }
